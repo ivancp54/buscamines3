@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pescamines</title>
+</head>
+
+<body>
+
+    <button type="button" onclick="inicialitzaJoc()" value="Crear tabla">Començar Joc</button>
+    Fila <input type="number" id="fila"> </button>
+    Columna <input type="number" id="columna"> </button>
+    Num minas <input type="number" id="minas"> </button>
+
+
+
+    <br>
+    <div>
+        <table style="width: 10%" border="1">
+            <tbody id="tblDatos">
+
+            </tbody>
+        </table>
+    </div>
+
+    <button type="button" onclick="paintCheckerboard()"> paintCheckerboard</button>
+    <script src="buscaminas.js"></script>
+
+</body>
+
+</html>
